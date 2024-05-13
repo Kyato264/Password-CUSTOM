@@ -26,7 +26,7 @@ export default function PasswordGen({ navigation }) {
     return (
         <ImageBackground source={require('./assets/background2.png')} style={styles.background}>
             <View style={styles.container}>
-                <Text style={styles.plainText}>PASSWORD GENERATOR</Text>
+                <Text style={styles.title}>PASSWORD GENERATOR</Text>
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('PasswordsMain')}>
                     <Text style={styles.buttonText}>Menu</Text>
                 </TouchableOpacity>

@@ -44,9 +44,9 @@ export default function UpdateUserDetailsScreen({ navigation }) {
   };
 
   return (
-    <ImageBackground source={require('./assets/background2.png')} style={styles.background}>
+    <ImageBackground source={require('./assets/backgroundtest3.png')} style={styles.background}>
     <View style={styles.container}>
-      <Text style={styles.plainText}>Update User Details</Text>
+      <Text style={styles.title}>Update User Details</Text>
       <TextInput
         style={styles.input}
         placeholder="Enter username"

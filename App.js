@@ -108,14 +108,14 @@ function Login({ navigation }) {
   }
     //Main screen stuff
   return (
-    <ImageBackground source={require('./assets/background2.png')} style={styles.background}>
+    <ImageBackground source={require('./assets/backgroundtest4.png')} style={styles.background}>
       <View style={styles.container}>
-        <Image source={require('./assets/logo.png')} style={styles.logo} />
+        <Image source={require('./assets/logo3.png')} style={styles.logo} />
         <View style={styles.box}>
-          <Text style={styles.title}>PASSIT</Text>
-          <StatusBar style="auto" />
+          <Text style={styles.title}>PASS-IT</Text>
+          <StatusBar style="auto" />  
 
-          <Text style={styles.plainText}>Username: {username}</Text>
+          <Text style={styles.plainText}>Welcome {username}</Text>
 
           <Text style={styles.plainText}>Password: </Text>
           <TextInput
@@ -137,9 +137,6 @@ function Login({ navigation }) {
             </TouchableOpacity>
           )}
 
-          <TouchableOpacity onPress={resetUserDetails} style={styles.button}>
-            <Text style={styles.buttonText}>Reset User Details </Text>
-          </TouchableOpacity>
         </View>
       </View>
     </ImageBackground>

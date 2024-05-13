@@ -6,7 +6,7 @@ import { StyleSheet, Text, View, ImageBackground, TouchableOpacity } from 'react
 
 export default function PasswordsMain({ navigation }) {
     return (
-        <ImageBackground source={require('./assets/background2.png')} style={styles.background}>
+        <ImageBackground source={require('./assets/backgroundtest6.png')} style={styles.background}>
             <View style={styles.container}>
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                     <Text style={styles.plainText}>Menu</Text>

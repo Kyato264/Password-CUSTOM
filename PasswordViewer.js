@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, ImageBackground, Text, View, FlatList, SafeAreaView, TouchableOpacity } from 'react-native';
 import styles from './ExtStyleSheet';
+import { ScrollView } from 'react-native-web';
 
 
 export default function PasswordViewer({ navigation }) {
@@ -35,7 +36,8 @@ export default function PasswordViewer({ navigation }) {
     );
 
     return (
-        <ImageBackground source={require('./assets/background2.png')} style={styles.background}>
+        <ImageBackground source={require('./assets/backgroundtest3.png')} style={styles.background}>
+            <ScrollView>
             <SafeAreaView style={styles.container}>
                 <View style={styles.main}>
                     <Text style={styles.title}>PASSWORD VIEWER</Text>
@@ -50,6 +52,7 @@ export default function PasswordViewer({ navigation }) {
                     <Text style={styles.buttonText}>Menu</Text>
                 </TouchableOpacity>
             </SafeAreaView>
+            </ScrollView>
         </ImageBackground>
     );
 }

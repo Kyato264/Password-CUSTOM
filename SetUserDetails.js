@@ -30,9 +30,9 @@ export default function SetUserDetailsScreen({ navigation }) {
   };
 
   return (
-    <ImageBackground source={require('./assets/background2.png')} style={styles.background}>
+    <ImageBackground source={require('./assets/backgroundtest2.png')} style={styles.background}>
     <View style={styles.container}>
-    <Text style={styles.plainText}>Set User Details</Text>
+    <Text style={styles.title}>Set User Details</Text>
       <TextInput
         style={styles.input}
         placeholder="Enter username"
